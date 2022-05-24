@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: silver;
+            text-align: center;
+        }
+        input{
+            font-family: inherit;
+            color: darkred;
+            background-color: silver;
+            padding: 15px;
+            margin: 15px;
+            border: 2px dotted black;
+        }
+        h1{
+            color: #001aff;
+            text-align: center;
+            font-family: "Bodoni MT Black" ;
+        }
+        td,th{
+            border: 2px solid #483535;
+           padding: 10px;
+            color: black;
+            align-content: center;
+        }
+        table{
+            width: 100%;
+            border-collapse: inherit ;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>
+    <b><i>Emobilis Students Names</i></b>
+</h1>
+<input id="dob" name="dob" type="date" >
+    <table>
+        <tr>
+            <th>Full name</th>
+            <th> Course taken</th>
+            <th>Gender</th>
+            <th> Phone number</th>
+            <th> School</th>
+        </tr>
+        <tr>
+            <td>Eric Were</td>
+            <td> Android</td>
+            <td> Male</td>
+            <td> 0723456723</td>
+            <td> Emobilis</td>
+        </tr>
+        <tr>
+            <td>Adrian Otaba</td>
+            <td> Android</td>
+            <td> Male</td>
+            <td>0717530637</td>
+            <td>Emobilis</td>
+        </tr>
+        <tr>
+            <td>Edwin Okama</td>
+            <td>Oracle</td>
+            <td>Male</td>
+            <td>0723456738</td>
+            <td>Emobilis</td>
+        </tr>
+        <tr>
+            <td>Godwin Maero</td>
+            <td>Android</td>
+            <td>Male</td>
+            <td>0712345678</td>
+            <td>Emobilis</td>
+        </tr>
+        <tr>
+            <td>Stephene Onyalo</td>
+            <td>Oracle</td>
+            <td>Male</td>
+            <td>0712345678</td>
+            <td>Emobilis</td>
+        </tr>
+        <tr>
+            <td>Eileen Nabwire</td>
+            <td>Android</td>
+            <td>Female</td>
+            <td>0723456789</td>
+            <td>Emobilis</td>
+        <tr>
+            <td>Kennedy Kipchirchir</td>
+            <td>Oracle</td>
+            <td>Male</td>
+            <td>0725345678</td>
+            <td>Emobilis</td>
+    </table>
+<p id="Morning"></p>
+<button type="button" onclick="document.getElementById('Morning').innerHTML=Date()">Click to display the time and date</button>
+</body>
+</html>

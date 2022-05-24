@@ -1,0 +1,142 @@
+.fruits{
+    border: 2px solid blue;
+    text-align: center;
+    padding: 15px;
+    background-color: burlywood;
+    margin: 15px;
+}
+.cars{
+    border: 3px dotted darkred;
+    text-align: center;
+    font-family: Arial;
+    padding:15px;
+    margin: 15px;
+    background-color: goldenrod;
+    font-size: 15px;
+}
+.FRUITS{
+    border: 3px double #a20623;
+    padding: 15px;
+    margin: 15px;
+    font-family: Algerian;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+}
+#fruits{
+    border: 3px double #a20623;
+    padding: 15px;
+    margin: 15px;
+    font-family: Algerian;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+}
+#men{
+    border: 2px solid blue;
+    text-align: center;
+    padding: 15px;
+    background-color: burlywood;
+    margin: 15px;
+}
+#samsung{
+    border: 3px dotted darkred;
+    text-align: center;
+    font-family: "dejavu sans";
+    padding: 15px;
+    margin:15px;
+    background-color: goldenrod;
+    font-size: 15px;
+}
+#toyota{
+    border: 3px solid blue;
+    text-align: center;
+    font-family: "Bauhaus 93";
+    padding: 15px;
+    margin: 15px;
+    background-color: orange;
+    font-size: 15px;
+}
+h1{
+    text-align: center;
+    font-family: "Arial Black";
+    color: green;
+
+}
+H2{
+    text-align:left;
+    font-family: "dejavu sans";
+    border: 20px solid gold;
+}
+p{
+    text-align: match-parent;
+    font-family: "Bodoni MT";
+    font-size: 130%;
+}
+ul{
+    text-align: center;
+    color: darkred;
+    font-family: "dejavu sans";
+    font-size: 20px;
+    overflow: visible;
+    list-style-type: none;
+    padding: 15px;
+
+}
+li{
+    float: left;
+}
+a{
+    overflow: visible;
+    font-family: "dejavu sans";
+    text-align: center;
+    color: gold;
+    padding: 15px;
+}
+button{
+    font-family: "Arial Black";
+    padding: 15px;
+    margin: 15px;
+    color: red;
+    font-size: 100%;
+    background-color: gold;
+
+}
+body{
+    text-align: left;
+    background-color: wheat;
+    text-align: center;
+}
+h6{
+    color: darkblue;
+    font: bold;
+    font-family: "Arial Black";
+    text-align: center;
+    font-size: 100%;
+}
+form{
+    align-content: center;
+    background-color: green;
+    text-align:left;
+    border: 2px solid white;
+    border-collapse: collapse;
+    padding: 15px;
+    margin: 15px;
+}
+label{
+    color: white;
+    font-family: Arial;
+
+}
+input{
+    color: darkred;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+select{
+    color: darkred;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
